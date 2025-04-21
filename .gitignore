@@ -1,0 +1,29 @@
+# node modules (pacotes instalados)
+node_modules/
+
+# configurações de banco de dados
+config/
+
+# arquivos de log
+*.log
+npm-debug.log*
+
+# configurações de ambiente
+.env
+
+# sistemas
+.DS_Store
+Thumbs.db
+
+# arquivos de build (caso use futuramente)
+dist/
+build/
+
+# SQLite ou outros bancos locais, se usar
+*.sqlite
+
+# pasta de testes temporários
+coverage/
+
+# arquivos do VSCode
+.vscode/
