@@ -1,6 +1,7 @@
 /*
 PARA A CONEXÃO FUTURA DO BANCO DE DADOS 
 const Item = require('../model/Item');
+
 */
 
 // mockando os dados para chamada fake para funcionamento das rotas
