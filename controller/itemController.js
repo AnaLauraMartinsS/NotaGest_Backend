@@ -45,7 +45,7 @@ exports.getItemById = (req, res) => {
   res.json(item);
 };
 
-// PUT = Atualizar item por ID
+// PUT = Atualizar item por ID em especifico
 exports.updateItem = (req, res) => {
   const id = parseInt(req.params.id);
   const { nome, descricao } = req.body;
@@ -64,7 +64,7 @@ exports.updateItem = (req, res) => {
   res.json(itens[index]);
 };
 
-// DELETE = Deletar item por ID
+// DELETE = Deletar item por ID por item em especifico
 exports.deleteItem = (req, res) => {
   const id = parseInt(req.params.id);
   const index = itens.findIndex(i => i.id === id);
