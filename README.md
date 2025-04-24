@@ -33,6 +33,7 @@ npm run dev
 5. O servidor ficará disponível em: http://localhost:3001
 
 🧪 Testando a API
+
 Você pode testar com ferramentas como:
 
 Insomnia ou Postman
@@ -49,6 +50,7 @@ Endpoints disponíveis:
 
 
 📌 Adendo
+
 A conexão com banco de dados ainda está em fase de implementação.
 
 Por enquanto os dados são simulados em memória.
