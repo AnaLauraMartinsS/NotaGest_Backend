@@ -39,12 +39,14 @@ Insomnia ou Postman
 
 Endpoints disponíveis:
 
-Método | Rota            | Descrição
-GET    | /api/item       | Lista todos os itens
-GET    | /api/item/{id}  | Busca item por ID
-POST   | /api/item       | Cria um novo item
-PUT    | /api/item/{id}  | Atualiza um item por ID
-DELETE | /api/item/{id}  | Deleta um item por ID
+| Método  | Rota              | Descrição                   |
+|---------|-------------------|-----------------------------|
+| GET     | `/api/item`       | Lista todos os itens        |
+| GET     | `/api/item/{id}`  | Busca item por ID           |
+| POST    | `/api/item`       | Cria um novo item           |
+| PUT     | `/api/item/{id}`  | Atualiza um item por ID     |
+| DELETE  | `/api/item/{id}`  | Deleta um item por ID       |
+
 
 📌 Adendo
 A conexão com banco de dados ainda está em fase de implementação.
