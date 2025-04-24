@@ -10,35 +10,42 @@ Este projeto é o backend simples feito com **Node.js & Express**, realiza todas
 - [Axios](https://axios-http.com/)
 - [Cors](https://expressjs.com/en/resources/middleware/cors.html)
 
-## ⚙️ Como fazer a instalação e execução do projeto
+API REST feita com **Node.js** e **Express** para gerenciamento de arquivos. Este projeto simula o cadastro de itens com rotas básicas de CRUD.
 
-1. **Clone o repositório**
+## ⚙️ Como Rodar o Back-end
 
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+1. Acesse a pasta do back-end:
+   ```bash
+   cd backend
+2. Instale as dependências:
+  npm install
 
-2. **No terminal coloque o seguinte comando**
-npm install
+3. Inicie o servidor:
+  npm run dev
 
-3. **Dentro da IDE crie um arquivo .ENV** com as seguintes configurações:
+A API estará disponível em: http://localhost:3001/api/item
+
+## 🔐 Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto **back-end** com as seguintes informações para configurar a conexão com o banco de dados MySQL:
+.env
+
+# Porta do servidor
 PORT=3001
+
+# Configurações do MySQL
 DB_HOST=localhost
-DB_USER=seu_usuario
+DB_PORT=3306
+DB_USER=root
 DB_PASSWORD=sua_senha
-DB_NAME=seu_banco
+DB_NAME=nome_do_banco
 
-4. Inicie a API com o seguinte comando:
-npm run dev
+🧪 Testes
+Você pode testar os endpoints usando:
 
-5. O servidor ficará disponível em: http://localhost:3001
+Postman ou Insomnia
 
-🧪 Testando a API
-
-Você pode testar com ferramentas como:
-
-Insomnia ou Postman
-
-Endpoints disponíveis:
+## 📚 Endpoints da API
 
 | Método  | Rota              | Descrição                   |
 |---------|-------------------|-----------------------------|
@@ -48,12 +55,8 @@ Endpoints disponíveis:
 | PUT     | `/api/item/{id}`  | Atualiza um item por ID     |
 | DELETE  | `/api/item/{id}`  | Deleta um item por ID       |
 
-
 📌 Adendo
 
 A conexão com banco de dados ainda está em fase de implementação.
 
 Por enquanto os dados são simulados em memória.
-
-
-
